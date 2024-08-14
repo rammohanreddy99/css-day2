@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.container1{
+    padding-left: 130px;
+}
+h1{
+    background-color: darkseagreen;
+}
+section{
+    width: 400px;
+    height: 350px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 10px #ccc;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+h2{
+    display: block;
+    margin-top: 5px;
+    padding-left: 10px;
+}
