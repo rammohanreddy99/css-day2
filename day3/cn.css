@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: verdana, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    background-color: whitesmoke;
+    padding: 8px 16px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+   margin-top:60px
+}
+
+.h11 {
+    font-size: 1.2rem;
+    font-family: verdana, sans-serif;
+}
+
+.hb {
+    padding-right: 10px;
+}
+
+.abt {
+    display: flex;
+    gap: 16px;
+}
+
+.rt {
+    padding: 16px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.midm {
+    position: relative;
+}
+
+.mid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: white; /* Make sure the text is visible over the image */
+    text-align: center; /* Center text alignment */
+    font-size: 2rem; /* Adjust text size as needed */
+}
+.mida{
+    position: absolute;
+    top:40%;
+    right:5%;
+    max-width: 90%;
+}
+.aa{
+    position: absolute;
+    top:31%;
+    right:16%;
+    color: rgb(228, 168, 55);
+    background-color: black;
+    opacity: .5;
+    padding: 10px;
+    max-width: 90%;
+}
+.jj{
+    padding: 15px;
+    background-color: black;
+    opacity: .6;
+    font-size: 1.2rem;
+}
+.jk{
+   font-weight: 200;
+   color:black;
+   font-size: 1.2rem;
+}
+.gh{
+    padding: 5px;
+    text-align: justify;
+    line-height: 2;
+}
+.ch{
+    text-align: justify;
+    line-height: 2;
+}
+
+.kk,.ii{
+    margin:10px;
+    padding-left: 0.8rem;
+}
+.kk1, .ii1{
+    padding:32px 16px;
+}
+.kk2, .ii2{
+    margin:10px 0px;
+    padding:16px 0px;
+}
+.p{
+    width:22%;
+    display: inline-block;
+    margin:5px;
+    vertical-align: top;
+    position:relative;
+    margin:1.25%;
+}
+.ppa, .ppb{
+    margin-left: 0.6rem;
+}
+.ppa21, .ppa22, .ppa23, .ppa24 ,.ppa25, .ppa26, .ppa27,.ppa28{
+    position:absolute;
+    background-color: white;
+    left:0%;
+}
+
+.ii{
+    margin-right: 23px;
+    text-align: justify;
+    line-height: 1.9;
+}
+.l1{
+    font-weight: 100;
+    margin:0;
+}

@@ -1,0 +1,45 @@
+body{
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+*{
+    box-sizing: border-box;
+}
+.parent{
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.child{
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+.one_top{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin: 5px;
+}
+.one_middle{
+    font-weight: 600;
+    margin: 5px;
+}
+.one_last{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.fa-star{
+    color: green;
+}
+.text-dec{
+    text-decoration: none;
+}

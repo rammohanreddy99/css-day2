@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.container{
+    background-color: aqua;
+    padding: 10px 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    gap: 30px;
+}
+.extra-links{
+    display: flex;
+    gap: 30px;
+}
+.container1{
+    background-color: black;
+    display: flex;
+    padding: 5px 10px;
+}
+ul{
+    color: white;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 55px;
+}
