@@ -27,7 +27,7 @@ main{
    margin-top:60px
 }
 
-.h11 {
+.container {
     font-size: 1.2rem;
     font-family: verdana, sans-serif;
 }
@@ -54,53 +54,6 @@ img {
     position: relative;
 }
 
-.mid {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: white; /* Make sure the text is visible over the image */
-    text-align: center; /* Center text alignment */
-    font-size: 2rem; /* Adjust text size as needed */
-}
-.mida{
-    position: absolute;
-    top:40%;
-    right:5%;
-    max-width: 90%;
-}
-.aa{
-    position: absolute;
-    top:31%;
-    right:16%;
-    color: rgb(228, 168, 55);
-    background-color: black;
-    opacity: .5;
-    padding: 10px;
-    max-width: 90%;
-}
-.jj{
-    padding: 15px;
-    background-color: black;
-    opacity: .6;
-    font-size: 1.2rem;
-}
-.jk{
-   font-weight: 200;
-   color:black;
-   font-size: 1.2rem;
-}
-.gh{
-    padding: 5px;
-    text-align: justify;
-    line-height: 2;
-}
-.ch{
-    text-align: justify;
-    line-height: 2;
-}
-
 .kk,.ii{
     margin:10px;
     padding-left: 0.8rem;
@@ -124,9 +77,13 @@ img {
     margin-left: 0.6rem;
 }
 .ppa21, .ppa22, .ppa23, .ppa24 ,.ppa25, .ppa26, .ppa27,.ppa28{
-    position:absolute;
+  
     background-color: white;
     left:0%;
+}
+.ppa11,.ppa12,.ppa13,.ppa14,.ppa15,.ppa16,.ppa17,.ppa18{
+    width: 300px;
+    height: 300px;
 }
 
 .ii{
