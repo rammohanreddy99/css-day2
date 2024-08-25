@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 400px;
+    height: 400px;
+    border: 1px solid;
+    text-align: center;
+    padding: 30px;
+    background-color: mediumorchid;
+}
+button {
+    background-color: rgb(27, 201, 120);
+    color: black;
+    margin: 10px 10px;
+    gap: 20px;
+}
+.container > .one:hover ~ img{
+    transform: translate(100px);
+    transition: all 2s ease-in-out;
+}
+.container > .two:hover ~ img{
+    transform: scale(1.2);
+}
+.container > .three:hover ~ img{
+    transform: skewX(20deg);
+}
+.container > .four:hover ~ img{
+    transform: rotate(4000deg);
+    transition: all 2s ease-in-out;
+}
+.content{
+    margin-top: 50px;
+    border: 2px solid;
+}
