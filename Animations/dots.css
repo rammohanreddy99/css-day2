@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+   
+}
+div>.r1,.r2,.r3,.r4{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    animation: 2s bounce ease infinite;
+}
+.r1{
+    background-color: blue;
+}
+.r2{
+    background-color: red;
+    animation-delay: .25s;
+}
+.r3{
+    background-color: green;
+    animation-delay: .5s;
+}
+.r4{
+    background-color: yellow;
+    animation-delay: .75s;
+}
+@keyframes bounce{
+    50%{
+        transform: translateY(25px);
+    }
+}
